@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Your Account</title>
+  <link rel="stylesheet" href="/create_account.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <button id="back-button">
+        <img src="/images/arrow_back.png" alt="Go back">
+      </button>
+      <h1>Create Account</h1>
+    </header>
+
+    <p>Join us today and unlock new opportunities</p>
+      <form>
+        <h6>First name</h6>
+        <input class="text-wrapper" type="text" id="first-name" name="first-name" placeholder="Enter your first name" required/>
+        <h6>Last name</h6>
+        <input class="text-wrapper" type="text" id="last-name" name="last-name" placeholder="Enter your surname" required/>
+        <h6>Email Address</h6>
+        <input class="text-wrapper" type="text" id="email" name="email" placeholder="Enter your email address" required/>
+        <h6>Phone Number</h6>
+        <input class="text-wrapper" type="text" id="telephone" name="phone-number" placeholder="+234" required/>
+
+        <div class="password-container">
+                  <h6>Password</h6>
+        <input class="text-wrapper" type="password" id="password" placeholder=" " required/>
+
+        <button class="toggle" aria-label="toggle-password-visibility">
+            <img src="/images/toggle.png" alt="">
+        </button>
+        </div>
+
+        <input class="checkboxes" type="checkbox" id="terms-agreement" name="terms-agreement" required>
+        <label class="by-signing-up-I" for="terms-agreement">
+            <span class="span">By signing up, I agree to the</span>
+            <a class="terms" href="#terms"> Terms of service</a>
+        </label>
+        </form>
+
+        <button class="button" type="submit">Create Account</button>
+        <div class="divider">
+          <hr>
+        <span>OR<span>
+          <hr>
+        </div>
+        <img src="/images/google_icon.png" alt="">
+        <button class="icon" type="button">Create with Google</button>
+        <p class="already-have-an-acccount">Already have an account?
+            <a href="#login">Log in</a>
+        </p>
+  </main>
+</body>
+</html>

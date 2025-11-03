@@ -1,0 +1,120 @@
+main {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 90px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#back-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 250px;
+}
+
+#back-button img {
+  width: 24px;
+  height: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+p {
+  justify-content: center;
+}
+
+.text-wrapper {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: rgb(36, 161, 214);
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #2dadf3;
+}
+
+.divider {
+  display: flexbox;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider hr hr{
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ddd;
+  justify-content: center;
+}
+
+.divider span{
+  display: flex;
+  margin: 0 10px;
+  color: #666;
+  justify-content: center;
+}
+
+.password-container{
+  position: relative;
+}
+
+.toggle{
+  position: absolute;
+  top: 60%;
+  right: 1px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.toggle img{
+  width: 24px;
+  height: 24px;
+}
+
+.by-signing-up-I {
+  font-size: 14px;
+  right: 20%;
+}
+
+.terms {
+  text-decoration: none;
+  color: rgb(36, 161, 214);
+}
+
+.icon {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 500;
+  color: #2dadf3;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
